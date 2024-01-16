@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "airbnb";
+    src: url("../fonts/AirbnbCereal_W_Md.otf");
+}
+
+@font-face {
+    font-family: "airbnb-l";
+    src: url("../fonts/AirbnbCereal_W_Lt.otf");
+}
+
+*{
+    font-family: "airbnb";
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.publi--sucesso{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    background-color: #F7F7F7;
+    border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.publi--texto{
+    text-decoration: underline black;
+    cursor: pointer;
+    font-size: 16;
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+.menu--superior{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding: 30px 100px;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 250;
+    margin-top: -10px;
+
+}
+
+.opcao-ativa{
+    cursor: pointer;
+    height: fit-content;
+    padding: 14px;
+}
+
+.opcao{
+    font-family: "airbnb-l";
+    cursor: pointer;
+    height: fit-content;
+    color:rgb(125, 125, 125);
+    padding: 14px;
+}
+
+.opcao:hover{
+    background-color: rgb(232, 232, 232);
+    border-radius: 25px;
+    color: black;
+}
+
+.logo{
+    width: 100%;
+    max-width: 100px;
+    min-width: 90px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.menu--esquerda--superior{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.anuncie{
+    font-family: "airbnb-l";
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    padding:14px;
+    margin-top: -10px;
+    height: fit-content;
+}
+
+.anuncie:hover{
+    background-color: rgb(232, 232, 232);
+    border-radius: 25px;
+
+}
+
+.usuario{
+    cursor: pointer;
+    margin-top: -10px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid rgb(189, 189, 189);
+}
+
+.usuario:hover{
+    box-shadow: 0 3px 2px 0 rgba(0,0,0,0.24),0 0px 0px 0 rgba(0,0,0,0.19);
+}
+
+.btn-usuario{
+    font-size: 27px;
+    height: fit-content;
+
+}
+.btn-usuario-img{
+    font-size: 36px;;
+    height: fit-content;
+}
+
+.lingua{
+    font-size: 20px;
+    margin: 0px 15px;
+    cursor: pointer;
+    height: fit-content;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.lingua:hover{
+    background-color: rgb(232, 232, 232);
+    border-radius: 25px;
+}
+
+
